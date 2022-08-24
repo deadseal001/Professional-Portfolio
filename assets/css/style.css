@@ -1,5 +1,5 @@
 :root {
-    --primiary-color: rgb(27,28,29);
+    --primiary-color: rgb(66, 95, 122);
     --secondary-color: rgb(106, 167, 181);
 
 }
@@ -14,19 +14,26 @@ body {
     color:var(--primiary-color);
 }
 
+/* styles for header */
 header {
     background-color: rgb(26, 26, 31);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     pad: 20px 0px;
+    align-items: center;
+    background-size: cover;
 }
 header h1{
     color:var(--primiary-color);
     background-color: var(--secondary-color);
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
+    margin: 0;
     padding: 2px, 2px, 2px, 50px;
+}
+.headerh1 {
+    padding: 5px, 5px, 5px, 50px;
 }
 header a{
     text-decoration: none;
@@ -41,22 +48,141 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 20px 35px;
 }
 header nav ul li a{
     padding: 10px 15px;
     border-bottom: 10px;
     border-color: var(--secondary-color);
     font-weight: light;
-    font-size: 1.55vw;
+    font-size: 2vw;
     color: var(--secondary-color);
 } 
 header nav ul li a:hover {
     background:var(--secondary-color);
-    color:var(--primiary-color)
+    color:var(--primiary-color);
     width: 100%;
     border-radius: 15px;
 }
 
 section{
-    padding: 60px;
+    padding: 60px 20px;
+}
+
+/* style for the hero */
+.hero{
+    background-image: url(../images/wall-blue-wooden.jpeg);
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    /* padding: 110px 10px 10px 30px; */
+}
+
+.hero h2 {
+    background-color: var(--secondary-color);
+    border: 10px 5px;
+    align-self: end;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+/* style for the main parts */
+.intro {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: felx-start;
+}
+.flex-row {
+    width: 25%;
+    text-align: right;
+    margin: 0;
+    font-size: 4vw;
+    padding: 0px 15px;
+    
+}
+.flex-row h1 {
+    color: var(--primiary-color);
+}
+.myself {
+    width: 75%;
+    margin: 0;
+    padding: 5px 15px;
+    border-left: 2px solid var(--primiary-color);
+}
+
+/* styles for my work */
+.work1 {
+    /* background-image: url(https://static.scientificamerican.com/sciam/cache/file/9035631C-57BF-4F4A-B964B0D00A6BF9C8_source.jpg?w=690&h=930&242FB4B7-F1E4-4298-8CF5FBBD4A9FF064); */
+    opacity: 70%;
+    /* background-color: var(--primiary-color);
+    background-size: cover;
+    background-position: center; */
+    display: flex;
+    align-items: flex-end;
+    /* padding: 250px 10px 10px 10px; */
+    position: relative;
+    
+}
+.work1:hover {
+    opacity: 100%;
+    background-image: src(../images/desert.jpg);
+}
+.work1 img {
+    width: 100%;
+    /* height: 250px; */
+    /* object-fit: cover; */
+    border: 5px var(--secondary-color) solid;
+    margin: 20px;
+}
+
+.frame {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-color: var(--secondary-color);
+    padding:10px 20px;
+}
+.frame h3 {
+    font-size: 20px;
+}
+
+/* style for contact me */
+.contact-info {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px 35px;
+}
+.contact-info li {
+    border-bottom: 3px solid var(--primiary-color);
+}
+.contact-info li a, .contact-info li h4{
+    color: var(--primiary-color);
+    font-size: 2vw;
+    text-underline-offset: 7px;
+}
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Media quaery for tablets and smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
 }

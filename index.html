@@ -8,10 +8,11 @@
   </head>
   <body>
     <header>
+        <nav class="headerh1">
             <h1>
                 <a href="./index.html">Lernantino</a>
             </h1>
-  
+        </nav>
         <nav>
           <!-- Unordered list element -->
           <ul>
@@ -31,7 +32,7 @@
             </li>
           </ul>
         </nav>
-        </header>
+    </header>
 
         <!-- hero -->
         <section class="hero">
@@ -43,10 +44,10 @@
 
         <!-- About Me -->
         <section id="about-me" class="intro">
-            <div>
-                <h2 class="section-title primary-border">About Me</h2>
-            </div>
             <div class="flex-row">
+                <h1 class="section-title primary-border">About<br>Me</h1>
+            </div>
+            <div class="myself">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, deleniti repellat! Porro ab quia corrupti qui harum? Rem ad nulla deleniti numquam laborum delectus doloribus necessitatibus sit id tempora? Libero.<br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cum at id molestias sapiente possimus, ducimus vel? Consequuntur alias modi eligendi culpa beatae nihil optio, voluptatem voluptate esse consequatur maiores.
@@ -55,16 +56,21 @@
         </section>
 
         <!-- My Work -->
-        <section id="my-work" class="works">
+        <section id="my-work" class="intro">
             <div class="flex-row">
-                <h2 class="section-title primary-border">My Work</h2>
+                <h1 class="section-title primary-border">My<br>Work</h1>
             </div>
-            <div>
-                <div class="work">
-                    <h3>Surf Report</h3>
-                    <p>MERN Stack</p>
+            <div class="myself">
+                <div href="https://deadseal001.github.io" class="work1">
+                    <a href="https://deadseal001.github.io">
+                        <img src="./assets/images/desert.jpg" alt="Surf Report" />
+                    </a>
+                    <div class="frame">
+                        <h3>Surf Report</h3>
+                        <p>MERN Stack</p>
+                    </div>
                 </div>
-                <div class="work">
+                <div class="work2">
                     <div class="smallwork">
                         <h3>LED WALL</h3>
                         <p> Node.loT</p>
@@ -85,26 +91,28 @@
             </div>
         </section>
 
-        <section id="contact-me" class=" ">
-            <div>
-                <h2>Contact Me</h2>
+        <section id="contact-me" class="intro">
+            <div class="flex-row">
+                <h1>Contact<br>Me</h1>
             </div>
-            <div>
-                <div>
-                    <h4>555.555.5555</h4>
-                </div>
-                <div>
-                    <a href="mailto:lernantino@website.com">lernantino@website.com</a>
-                </div>
-                <div>
-                    <a url="lernantino.github.io">GitHub</a>
-                </div>
-                <div>
-                    <a url="www.twitter.com">Twitter</a>
-                </div>
-                <div>
-                    <a url="www.spotify.com">Spotify</a>
-                </div>
+            <div class="myself">
+                <ul class="contact-info">
+                    <li>
+                        <h4>555.555.5555</h4>
+                    </li>
+                    <li>
+                        <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+                    </li>
+                    <li>
+                        <a href="https://lernantino.github.io">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="www.twitter.com">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="www.spotify.com">Spotify</a>
+                    </li>
+                </ul>
             </div>
             
         </section>
