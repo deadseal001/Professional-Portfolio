@@ -114,6 +114,9 @@ section{
     padding: 5px 15px;
     border-left: 2px solid var(--primiary-color);
 }
+.introduction {
+    font-size: 3vw;
+}
 
 /* styles for my work */
 .work1, .smallwork {

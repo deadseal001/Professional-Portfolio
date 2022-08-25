@@ -1,0 +1,9 @@
+.resume {
+    display: flex;
+    justify-content: center;
+}
+article {
+    font-size: 1.5vw;
+    width: 75%;
+    line-height: 1.5;
+}
