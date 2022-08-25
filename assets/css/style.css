@@ -28,7 +28,7 @@ header h1{
     color:var(--primiary-color);
     background-color: var(--secondary-color);
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 40px;
     margin: 0;
     padding: 2px, 2px, 2px, 50px;
 }
@@ -197,15 +197,56 @@ section{
 
 /* Media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
-
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1{
+        width:100%;
+        text-align: center;
+    }
+    header nav ul{
+        text-align: center;
+        width: 100%;
+    }
+    header nav ul li a{
+        text-align: center;
+        width: 100%;
+    }
 }
 
 /* Media quaery for tablets and smaller */
 @media screen and (max-width: 768px) {
-
+    section {
+        padding:30px 15px;
+    }
+    .flex-row {
+        width: 100%;
+        text-align: center;
+    }
+    .myself {
+        width:100%;
+        display: flex;
+        border-top: 2px var(--primiary-color) solid;
+        border-left: none;
+        flex-wrap: wrap;
+    }
+    .work1, .smallwork{
+        width: 100%;
+        height:150px;
+    }
+    .contact-info {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
 /* Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
-
+    .work1, .smallwork {
+        height: 100px;
+    }
+    
 }
