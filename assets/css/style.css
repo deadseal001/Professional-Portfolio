@@ -235,7 +235,11 @@ section{
         border-left: none;
         flex-wrap: wrap;
     }
-    .work1, .smallwork{
+    .work1 {
+        width: 100%;
+        height: 250px;
+    }
+    .smallwork{
         width: 100%;
         height:150px;
     }
