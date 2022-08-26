@@ -252,7 +252,10 @@ section{
 
 /* Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
-    .work1, .smallwork {
+    .work1 {
+        height:
+    }
+    .smallwork {
         height: 100px;
     }
     
