@@ -71,7 +71,7 @@ section{
 
 /* style for the hero */
 .hero{
-    background-image: url(../images/Avatar.jpeg);
+    background-image: url(../images/photo.png);
     background-size: cover;
     height: 250px;
     width: 100%;
@@ -119,7 +119,7 @@ section{
 }
 
 /* styles for my work */
-.work1, .smallwork {
+.work1, .work-movie, .smallwork {
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -133,7 +133,13 @@ section{
 }
 .work1 {
     margin: 10px 1% 5px 1%;
-    background-image: url("../images/desert\ sky.jpg");
+    background-image: url("../images/daily-planer.png");
+    height: 300px;
+}
+
+.work-movie {
+    margin: 10px 1% 5px 1%;
+    background-image: url("../images/movie-search.png");
     height: 300px;
 }
 
@@ -141,6 +147,9 @@ section{
     opacity: 100%;
 }
 
+.work-movie:hover {
+    opacity: 100%;
+}
 .frame,.small1{
     position: relative;
     bottom: 20px;
@@ -156,13 +165,13 @@ section{
     flex-wrap: wrap;
 }
 .led-wall {
-    background-image: url("../images/LED-wall.jpg");
+    background-image: url("../images/taskmaster\ pro.png");
 }
 .calculator {
-    background-image: url("../images/calculator.jpg");
+    background-image: url("../images/codequiz.png");
 }
 .puzzles {
-    background-image: url("../images/puzzle2.jpg");
+    background-image: url("../images/weather-dashboard.png");
 }
 .runbuddy {
     background-image: url("../images/runbuddy2.png");
